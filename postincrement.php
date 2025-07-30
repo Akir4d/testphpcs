@@ -53,7 +53,27 @@ $x = 10;
 $y = 20;
 
 if ($x >= $y) {
-  echo "x è maggiore o uguale a y";
+  echo "x è maggiore o uguale a y<br>";
 } else {
-  echo "y è maggiore di x";
+  echo "y è maggiore di x<br>";
 }
+
+$age = 11;
+
+if ($age < 13) {
+  echo "Bambino<br>";
+} elseif ($age > 13 && $age < 19) {
+  echo "Teenager<br>";
+} else {
+  echo "Adulto<br>";
+}
+
+$i = 1;
+while($i < 7) {
+  echo '<br>The value is ' . $i++;
+}
+
+for ($a = 0; $a < 6; $a++) {
+  echo "Value of a : ". $a . "<br>";
+}
+
